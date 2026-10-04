@@ -8,7 +8,7 @@ This project trains a small GPT-style transformer, implemented from scratch in P
 
 ## Contents
 - `sentimentscope_notebook.ipynb`: the notebook with all code (data loading, exploration, dataset, model, training, evaluation, inference interface, conclusion).
-- `sentimentscope_checkpoint.pt`: the trained model checkpoint (best validation epoch).
+- The trained model checkpoint (`sentimentscope_checkpoint.pt`, 77.28% test accuracy) is supplied in the submission zip and is regenerated when the notebook is run.
 
 ## Running
 Open the notebook in Google Colab with a GPU runtime and choose Run all. The IMDB dataset is downloaded automatically.
